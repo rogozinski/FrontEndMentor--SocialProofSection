@@ -6,6 +6,7 @@ body{
     display: flex;
     min-height: 100vh;
     align-items: center;
+  
 }
 
 /*-----------TITLE-SECTION-----------*/
@@ -88,3 +89,18 @@ body{
     font-weight: 500;
     color: hsl(0, 0%, 0%);
   }
+  
+@media(max-width: 400px){
+    body{
+        background-image: url('images/bg-pattern-top-mobile.svg'), url('images/bg-pattern-bottom-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: top left, bottom right;
+    }
+}
+@media(min-width: 400px){
+    body{
+        background-image: url('images/bg-pattern-top-desktop.svg'), url('images/bg-pattern-bottom-desktop.svg');
+        background-repeat: no-repeat;
+        background-position: top left, bottom right;
+    }
+}

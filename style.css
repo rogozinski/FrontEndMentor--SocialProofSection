@@ -71,3 +71,20 @@ body{
     display:block;
 }
 
+/*--------FOOTER-------*/
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  .attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+  }
+
+  .attribution a:hover {
+    text-decoration: underline;
+    font-weight: 500;
+    color: hsl(0, 0%, 0%);
+  }

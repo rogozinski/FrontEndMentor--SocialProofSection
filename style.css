@@ -1,0 +1,28 @@
+/*--------GENERAL-SETTINGS-------*/
+body{
+    font-size: 15px;
+    font-family: 'Spartan', sans-serif;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+/*-----------TITLE-SECTION-----------*/
+#title_section h1{
+    font-weight: 700;
+    font-size: 3.75em;
+    line-height: 1em;
+    letter-spacing: -4px;
+    color: hsl(300, 43%, 22%);
+}
+
+#title_section p{
+    font-size: 1.1em;
+    font-weight: 500;
+    color: hsl(333, 80%, 67%);
+}
+/*-----------RATING-SECTION-----------*/
+#rating div {
+    background-color:hsl(300, 24%, 96%);
+}

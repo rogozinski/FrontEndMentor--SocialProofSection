@@ -18,11 +18,31 @@ body{
 }
 
 #title_section p{
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: 500;
+    letter-spacing: -1px;
     color: hsl(333, 80%, 67%);
 }
 /*-----------RATING-SECTION-----------*/
+#rating{
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 #rating div {
     background-color:hsl(300, 24%, 96%);
+    border-radius: 0.5rem;
+    font-weight: 700;
+    color: hsl(300, 43%, 22%);
+    margin-top: 1.25em;
+    padding: 1em 2em 1em 0;
+}
+
+#rating span{
+    margin-left: 1em;
+}
+
+#rating img{
+    vertical-align: top;
+    padding: 0 1px;
 }

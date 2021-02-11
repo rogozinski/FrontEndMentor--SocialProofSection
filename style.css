@@ -27,7 +27,6 @@ body{
 #rating{
     text-align: center;
     justify-content: center;
-    flex-wrap: wrap;
 }
 #rating div {
     background-color:hsl(300, 24%, 96%);
@@ -46,3 +45,29 @@ body{
     vertical-align: top;
     padding: 0 1px;
 }
+/*-----------COMMENT-SECTION-----------*/
+.user-card{
+    background-color: hsl(300, 43%, 22%);
+    border-radius: 0.7em;
+}
+
+.user-name, .user-comment{
+    color: hsl(300, 24%, 96%);
+}
+
+.user-position{
+    color:hsl(333, 80%, 67%);
+}
+
+.user-card img{
+    border-radius: 50%;
+    transform: scale(0.7, 0.7);
+    float: left;
+}
+
+.user-name {
+    font-weight: 700;
+    margin-top: 1.3em;
+    display:block;
+}
+
